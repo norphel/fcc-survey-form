@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b32;
+  color: #fff;
+  font-size: 1.2rem;
+}
+body > h1 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+body > p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+form {
+  background-color: #0a0a23;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: min(50%, 700px);
+}
+label, 
+input,
+textarea {
+  display: block;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  margin-right: 0.5rem;
+  width: unset;
+}
+form > div:nth-child(5) > div,
+form > div:nth-child(7) > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+form p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+span {
+  font-size: 0.8rem;
+}
+button {
+  background-color: #37af65;
+  color: #ffffff;
+  padding: 0.75rem;
+  margin-top: 1.5rem;
+}
